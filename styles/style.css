@@ -1,6 +1,7 @@
 body {
   background-color: #DDEFFC;
   margin: 0;
+  padding: 0;
 }
 
 #container {
@@ -29,6 +30,7 @@ body {
 .topnav {
   background-color: #336482;
   overflow: hidden;
+  border-bottom: solid 2px rgb(20, 63, 109);
 }
 
 .topnav a {
@@ -45,6 +47,7 @@ body {
   background-color: #668BA2;
   color: rgb(0, 0, 0);
   border: 0;
+  margin: auto;
 }
 
 .topnav .icon {
