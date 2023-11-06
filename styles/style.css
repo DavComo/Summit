@@ -2,6 +2,9 @@ body {
   background-color: #DDEFFC;
   margin: 0;
   padding: 0;
+  background-image: url('../Logo.png');
+  background-size: cover;
+  background-position: center center;
 }
 
 #container {
@@ -28,15 +31,19 @@ body {
 /* navbar */
 
 .topnav {
-  background-color: #336482;
+  background-color: #3b6b8e;
+  background-image: url();
+  background-size: cover;
+  background-position: center center;
   overflow: hidden;
   border-bottom: solid 2px rgb(20, 63, 109);
+  height: 300px;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -44,7 +51,7 @@ body {
 }
 
 .active {
-  background-color: #668BA2;
+  background-color: #8eb7d0;
   color: rgb(0, 0, 0);
   border: 0;
   margin: auto;
@@ -56,7 +63,8 @@ body {
 }
 
 .topnav a:hover {
-  color: white;
+  color: rgba(0, 0, 0);
+  background-color: #ddeffc95;
 }
 
 @media screen and (max-width: 600px) {

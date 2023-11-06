@@ -3,6 +3,13 @@
   padding: 10px;
 }
 
-#placeholder {
-  width: 500px;
+h1 {
+  color: black;
+  font-size: 100px;
+}
+
+#register {
+  margin: auto;
+  top: 30%;
+  position: relative;
 }
