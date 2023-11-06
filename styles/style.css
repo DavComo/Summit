@@ -1,3 +1,7 @@
+* {
+  font-family: sans-serif;
+}
+
 body {
   background-color: #DDEFFC;
   margin: 0;
@@ -31,7 +35,7 @@ body {
 /* navbar */
 
 .topnav {
-  background-color: #3b6b8e;
+  background-color: #3b6b8e00;
   background-image: url();
   background-size: cover;
   background-position: center center;
@@ -45,13 +49,12 @@ body {
   display: block;
   color: #ffffff;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 36px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .active {
-  background-color: #8eb7d0;
   color: rgb(0, 0, 0);
   border: 0;
   margin: auto;
