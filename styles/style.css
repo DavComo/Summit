@@ -33,8 +33,8 @@ body {
 
 .topnav {
   background-color: #3b6b8e;
-  background-image: url('../Logo.png');
-  background-size: 500px;
+  background-image: linear-gradient(to right, rgb(0, 61, 91), rgb(0, 171, 229));
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   overflow: hidden;
@@ -43,7 +43,7 @@ body {
 }
 
 .topnav a {
-  background-color: 
+  background-color: #3b6b8e92;
   float: left;
   display: block;
   color: #ffffff;
@@ -58,8 +58,8 @@ body {
   background-image: url('../Logo.png');
   background-position: center center;
   background-size: cover;
-  height: 50px;
-  width: 50px;
+  height: 46.5px;
+  width: 46.5px;
 }
 
 .active {
@@ -75,7 +75,7 @@ body {
 
 .topnav a:hover {
   color: rgba(0, 0, 0);
-  background-color: #ddeffc95;
+  background-color: #0095ff2f;
 }
 
 @media screen and (max-width: 600px) {
