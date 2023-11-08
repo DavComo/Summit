@@ -8,5 +8,9 @@ function toggleResponsive() {
 }
 
 document.addEventListener("scroll", () => {
-  document.getElementById("topNav").style = "height: 60px;";
+  if (document.body.scrollTop >= 50) {
+    document.getElementById("topNav").style = "height: 60px;";
+  } else {
+    document.getElementById("topNav").style = "height: 300px;"
+  }
 });
