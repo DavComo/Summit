@@ -51,7 +51,6 @@ body {
 }
 
 .topnav a {
-  background-color: #3b6b8e92;
   float: left;
   display: block;
   color: #ffffff;
@@ -71,7 +70,7 @@ body {
 }
 
 .active {
-  color: rgb(0, 0, 0);
+  font-weight: 700;
   border: 0;
   margin: auto;
 }
