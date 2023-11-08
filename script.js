@@ -6,3 +6,7 @@ function toggleResponsive() {
     x.className = "topnav";
   }
 }
+
+document.addEventListener("scroll", () => {
+  document.getElementById("topNav").style = "height: 60px;";
+});
