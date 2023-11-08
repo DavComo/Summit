@@ -18,7 +18,8 @@ body {
 }
 
 #register {
-  position: relative;
+  position: fixed;
+  top: 70px;
   border: solid 2px #333;
   border-radius: 10px;
   padding: 1%;
