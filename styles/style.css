@@ -6,9 +6,6 @@ body {
   background-color: #DDEFFC;
   margin: 0;
   padding: 0;
-  background-image: url('../Logo.png');
-  background-size: cover;
-  background-position: center center;
 }
 
 #container {
@@ -35,9 +32,10 @@ body {
 /* navbar */
 
 .topnav {
-  background-color: #3b6b8e00;
-  background-image: url();
-  background-size: cover;
+  background-color: #3b6b8e;
+  background-image: url('../Logo.png');
+  background-size: 500px;
+  background-repeat: no-repeat;
   background-position: center center;
   overflow: hidden;
   border-bottom: solid 2px rgb(20, 63, 109);
@@ -52,6 +50,15 @@ body {
   padding: 20px 36px;
   text-decoration: none;
   font-size: 20px;
+  transition: 200ms;
+}
+
+.homeLogo {
+  background-image: url('../Logo.png');
+  background-position: center center;
+  background-size: cover;
+  height: 50px;
+  width: 50px;
 }
 
 .active {
