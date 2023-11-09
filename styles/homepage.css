@@ -5,7 +5,9 @@
 
 h1 {
   color: black;
-  font-size: 100px;
+  font-size: 3em;
+  margin: auto;
+  max-width: 50%;
 }
 
 #register {
@@ -17,8 +19,14 @@ h1 {
 #sec1 {
   z-index: 0;
   position: relative;
-  top: 200px;
+  top: 250px;
   width: 40%;
   text-align: center;
   margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1em;
+  }
 }
