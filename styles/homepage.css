@@ -13,3 +13,11 @@ h1 {
   top: 30%;
   position: relative;
 }
+
+#sec1 {
+  position: relative;
+  top: 100px;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
