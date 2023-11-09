@@ -28,7 +28,6 @@ h1 {
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 1.5em;
-    font-family: Haettenschweiler;
     text-align: left;
     position: absolute;
     transform: translateY(-50px);

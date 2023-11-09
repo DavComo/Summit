@@ -10,6 +10,7 @@ function toggleResponsive() {
 }
 
 document.addEventListener("scroll", () => {
+  var x = document.getElementById("topNav");
   if (document.body.scrollTop >= 20) {
     document.getElementById("topNav").style = "height: 60px;";
   } else {
