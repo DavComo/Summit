@@ -10,6 +10,10 @@ body {
   padding-top: 70px;
 }
 
+p {
+  font-size: 20px;
+}
+
 #container {
   display: flex;
   align-items: center;
@@ -48,6 +52,7 @@ body {
   overflow: hidden;
   border-bottom: solid 2px rgb(20, 63, 109);
   height: 300px;
+  z-index: 50;
 }
 
 .topnav a {

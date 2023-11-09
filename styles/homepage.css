@@ -15,9 +15,10 @@ h1 {
 }
 
 #sec1 {
+  z-index: 0;
   position: relative;
-  top: 100px;
-  width: 60%;
+  top: 150px;
+  width: 40%;
   text-align: center;
   margin: auto;
 }
