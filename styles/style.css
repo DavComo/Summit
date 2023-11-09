@@ -43,7 +43,7 @@ p {
   position: fixed;
   top: 0;
   width: 100%;
-  transition: 400ms;
+  transition: 300ms;
   background-color: #3b6b8e;
   background-image: linear-gradient(to right, rgb(0, 61, 91), rgb(0, 171, 229));
   background-size: cover;
