@@ -51,7 +51,7 @@ p {
   background-position: center center;
   overflow: hidden;
   border-bottom: solid 2px rgb(20, 63, 109);
-  height: 300px;
+  height: 250px;
   z-index: 50;
 }
 

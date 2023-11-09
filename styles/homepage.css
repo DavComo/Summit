@@ -25,6 +25,13 @@ h1 {
   margin: auto;
 }
 
+.topnav {
+  background-image: url('../images/Logo.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
+
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 1.5em;
