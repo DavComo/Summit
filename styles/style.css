@@ -81,8 +81,7 @@ body {
 }
 
 .topnav a:hover {
-  color: rgba(0, 0, 0);
-  background-color: #0095ff2f;
+  opacity: 80%
 }
 
 @media screen and (max-width: 600px) {
