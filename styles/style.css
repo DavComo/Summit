@@ -5,13 +5,18 @@
 body {
   background-color: #DDEFFC;
   margin: 0;
-  padding: 0;
+  padding: 40px 100px 100px 0;
   height: 1000px;
-  padding-top: 70px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 35px;
 }
 
 p {
   font-size: 20px;
+  margin: 50px;
 }
 
 #container {
@@ -101,7 +106,12 @@ p {
   opacity: 80%
 }
 
-@media screen and (max-width: 600px) {
+.left {
+  float: left;
+  padding-left: 100px;
+}
+
+@media screen and (max-width: 670px) {
   .topnav a:not(:first-child) {
     display: none;
   }
@@ -111,7 +121,7 @@ p {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 670px) {
   .topnav.responsive {position: fixed;}
   .topnav.responsive a.icon {
     position: absolute;

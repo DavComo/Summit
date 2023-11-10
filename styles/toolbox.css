@@ -4,3 +4,52 @@
   background-repeat: no-repeat;
   background-size: 150px;
 }
+
+body {
+  padding-top: 253px;
+  text-align: center;
+}
+
+.sustainabilityCompassText {
+  margin: 150px 100px 100px 800px;
+  margin-left: 900px;
+  
+}
+
+@media screen and (max-width: 1600px) {
+  .sustainabilityCompassText {
+    margin: 150px 50px 100px 800px
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .sustainabilityCompassText {
+    margin: 150px 0px 100px 800px
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .sustainabilityCompassText {
+    margin: 100px -25px 100px 775px
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .sustainabilityCompassText {
+    margin: 50px -25px 100px 775px
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .sustainabilityCompassText {
+    margin: 200px;
+    float: none;
+    
+  }
+  img {
+    float: none;
+    padding: none;
+    margin: none;
+    text-align: center;
+  }
+}
